@@ -1,0 +1,8 @@
+ADOC generator
+==============
+
+Generated ADOC files for your FMA project.
+
+== License
+
+FMA is licensed with the link:./LICENSE.md[MIT] license. Author: Benjamin Schulte
