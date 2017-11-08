@@ -1,8 +1,9 @@
 {
   "name": "fma-adoc",
-  "version": "0.5.1",
+  "version": "0.2.1",
   "description": "Famicom Macro Assembler ADOC generator",
   "main": "dist/index.js",
+  "keywords": ["snes", "famicom", "macro", "assembler", "compiler", "nintendo", "asciidoc", "adoc"],
   "scripts": {
     "prepublish": "npm run build",
     "build": "node_modules/babel-cli/bin/babel.js src --source-maps --out-dir ./dist"
@@ -19,6 +20,14 @@
     "babel-runtime": "^6.26.0",
     "mkdirp": "^0.5.1"
   },
-  "author": "Benjamin Schulte",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminSchulte/fma-adoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BenjaminSchulte/fma-adoc/issues"
+  },
+  "homepage": "https://github.com/BenjaminSchulte/fma-adoc/issues#readme",
+  "author": "Benjamin Schulte <benj@minschulte.de>",
   "license": "MIT"
 }

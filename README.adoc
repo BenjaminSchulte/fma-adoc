@@ -1,7 +1,7 @@
 ADOC generator
 ==============
 
-Generated ADOC files for your FMA project.
+Generated ADOC files for your FMA project. See `fma-cli` package for further details.
 
 == License
 
