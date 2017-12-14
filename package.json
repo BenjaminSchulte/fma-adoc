@@ -3,7 +3,16 @@
   "version": "0.2.1",
   "description": "Famicom Macro Assembler ADOC generator",
   "main": "dist/index.js",
-  "keywords": ["snes", "famicom", "macro", "assembler", "compiler", "nintendo", "asciidoc", "adoc"],
+  "keywords": [
+    "snes",
+    "famicom",
+    "macro",
+    "assembler",
+    "compiler",
+    "nintendo",
+    "asciidoc",
+    "adoc"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "node_modules/babel-cli/bin/babel.js src --source-maps --out-dir ./dist"
